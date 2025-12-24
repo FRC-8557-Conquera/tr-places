@@ -1,0 +1,84 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: system-ui;
+    overflow: hidden;
+}
+
+#map {
+    width: 100vw;
+    height: 100vh;
+}
+
+.modal-scrim {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 1000;
+    background: rgba(0, 0, 0, 0.2);
+    transition: 0.2s;
+}
+
+.modal-container:not(.visible) .modal-scrim {
+    background: transparent;
+    pointer-events: none;
+}
+
+.modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1001;
+    background: white;
+    padding: 1rem;
+    padding-top: 0;
+    border-radius: .25rem;
+    border: 1px solid gray;
+    transition: 0.2s;
+}
+
+.modal-container:not(.visible) .modal {
+    transform: translate(-50%, -50%) translateY(50px);
+    opacity: 0;
+    pointer-events: none;
+}
+
+.modal-top {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.modal-close-button {
+    border: none;
+    padding: 0;
+    background: none;
+    width: 2rem;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+    .modal {
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        transform: none;
+    }
+    .modal-container:not(.visible) .modal {
+        transform: translateY(50px);
+        opacity: 0;
+        pointer-events: none;
+    }
+}
+
+.modal-container .points {
+    margin-top: 0;
+}
