@@ -28,6 +28,8 @@ const POINTS = {
 const INFO = {
     "troy": {
         title: "Troya (Truva) - Çanakkale",
+        imageURL: "https://upload.wikimedia.org/wikipedia/commons/3/3e/Truva_At%C4%B1_-_Trojan_Horse_-_panoramio.jpg",
+        imageAttr: "(c) Tevfik Teker, CC BY 3.0, Wikimedia Commons",
         detailBullets: [
             "Yaklaşık 3.000 - 4.500 yıllık",
             "Homeros’un İlyada Destanı’nda bulunan Truva Savaşı’nın geçtiği yer olarak bilinir. 9 farklı uygarlık ait izler barındırır. UNESCO Dünya Mirası listesindedir."
@@ -35,6 +37,8 @@ const INFO = {
     },
     "iznik": {
         title: "İznik Antik Kenti - Bursa",
+        imageURL: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Iznik_Wall_at_Lefke_Gate_8253.jpg/500px-Iznik_Wall_at_Lefke_Gate_8253.jpg",
+        imageAttr: "(c) Dosseman, CC BY-SA 4.0, Wikimedia Commons",
         detailBullets: [
             "Yaklaşık 2.300 yıllık",
             "Roma, Bizans ve Osmanlı dönemlerindeki önemli bir merkezdir. Birinci Konsil’in toplandığı yer olmasından Hristiyanlık tarihinde önemli bir yere sahiptir."
@@ -42,6 +46,8 @@ const INFO = {
     },
     "efes": {
         title: "Efes Antik Kenti - İzmir",
+        imageURL: "https://upload.wikimedia.org/wikipedia/commons/c/c6/Library_of_Celsus_side_view.jpg",
+        imageAttr: "(c) Peter K Burian, CC BY-SA 4.0, Wikimedia Commons",
         detailBullets: [
             "Yaklaşık 2.500 yıllık",
             "Artemis, Celsus Kütüphanesi ve antik tiyatrosuyla ünlüdür. Roma döneminin en büyük liman kentlerinden biridir."
@@ -49,6 +55,8 @@ const INFO = {
     },
     "bergama": {
         title: "Bergama (Pergamon) - İzmir",
+        imageURL: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Bergama%2C_Turkey.jpg/2560px-Bergama%2C_Turkey.jpg",
+        imageAttr: "(c) Bernard Gagnon, CC BY-SA 3.0, Wikimedia Commons",
         detailBullets: [
             "Yaklaşık 2.200 yıllık",
             "Dünyanın ilk büyük kütüphanelerinden biri burada kurulmuştur. 2014 yılında UNESCO Dünya Mirası listesine girmiştir."
@@ -56,6 +64,8 @@ const INFO = {
     },
     "aspendos": {
         title: "Aspendos - Antalya",
+        imageURL: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Aspendos_Amphitheatre.jpg/2560px-Aspendos_Amphitheatre.jpg",
+        imageAttr: "(c) Saffron Blaze, CC BY-SA 3.0, Wikimedia Commons",
         detailBullets: [
             "Yaklaşık 1.800 yıllık",
             "Dünyanın en iyi korunmuş antik tiyatrolarından birine ev sahipliği yapar. MÖ 10. yüzyılda Akalar tarafından kurulmuştur"
@@ -63,6 +73,8 @@ const INFO = {
     },
     "perge": {
         title: "Perge Antik Kenti - Antalya",
+        imageURL: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Perge_city_overview.jpg/2560px-Perge_city_overview.jpg",
+        imageAttr: "(c) Saffron Blaze, CC BY-SA 3.0, Wikimedia Commons",
         detailBullets: [
             "Yaklaşık 2.000 yıllık",
             "Helenistik ve Roma dönemlerinin düzenli kentlerinden biridir. Sütunlu caddeleri, hamamları ve stadyumuyla ünlüdür."
@@ -70,6 +82,8 @@ const INFO = {
     },
     "cthyk": {
         title: "Çatalhöyük - Konya",
+        imageURL: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/CatalHoyukSouthArea.JPG/960px-CatalHoyukSouthArea.JPG",
+        imageAttr: "(c) User:Ziggurat, CC-BY-SA 3.0, Wikimedia Commons",
         detailBullets: [
             "Yaklaşık 9.000 yıllık",
             "Bilinen en eski yerleşimlerinden biridir. 1950’lı yıllarda keşfedilmiş ve UNESCO Dünya Mirası listesine 2012’de girmiştir."
@@ -77,6 +91,8 @@ const INFO = {
     },
     "htssa": {
         title: "Hattuşa - Çorum",
+        imageURL: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Lion_Gate%2C_Hattusa_01.jpg/2560px-Lion_Gate%2C_Hattusa_01.jpg",
+        imageAttr: "(c) Bernard Gagnon, CC BY-SA 3.0, Wikimedia Commons",
         detailBullets: [
             "Yaklaşık 3.500 yıllık",
             "Hitit İmparatorluğu’nun başkentidir. Aslanlı Kapı, Kral Kapısı ve Yazılıkaya açık hava tapınağı ile ünlüdür."
@@ -84,6 +100,8 @@ const INFO = {
     },
     "sfr": {
         title: "Safranbolu Kaya Mezarları - Karabük",
+        imageURL: "https://upload.wikimedia.org/wikipedia/commons/0/08/Safranbolu_traditional_houses.jpg",
+        imageAttr: "(c) Uğur Başak, CC BY-SA 3.0, Wikimedia Commons",
         detailBullets: [
             "Yaklaşık 2.500 yıllık",
             "Paphlagonia döneminden kalma Safranbolu çevresindeki dik yamaçlara oyulmuş kaya mezarlarıdır."
@@ -91,6 +109,8 @@ const INFO = {
     },
     "kkma": {
         title: "Kral Kaya Mezarları - Amasya",
+        imageURL: "https://upload.wikimedia.org/wikipedia/commons/0/01/Amasya%27daki_tarihi_evler_ve_Kral_Kaya_Mezarlar%C4%B1.jpg",
+        imageAttr: "(c) TUSLOG Detachment 3-2, Kamu malı, Wikimedia Commons",
         detailBullets: [
             "Yaklaşık 2.300 yıllık",
             "Pontus Krallığının krallarına için kayalara oyulmuş anıtsal mezarlardır. Şehrin bir simgesi haline gelmiştir."
@@ -98,6 +118,8 @@ const INFO = {
     },
     "nmrt": {
         title: "Nemrut Dağı - Adıyaman",
+        imageURL: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Mount_Nemrut_-_East_Terrace_%284961323529%29.jpg/2560px-Mount_Nemrut_-_East_Terrace_%284961323529%29.jpg",
+        imageAttr: "(c) Klearchos Kapoutsis (Santorini, Yunanistan), CC BY 2.0, Wikimedia Commons",
         detailBullets: [
             "Yaklaşık 2.000 yıllık",
             "Kommagene Krallığı’na ait anıtsal heykeller bulunur. Güneş doğuşu ve batışında görülen manzarasıyla dünyaca ünlüdür."
@@ -105,6 +127,8 @@ const INFO = {
     },
     "anih": {
         title: "Ani Harabeleri - Kars",
+        imageURL: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Ani_Harabeleri_2.jpg/2560px-Ani_Harabeleri_2.jpg",
+        imageAttr: "(c) Engin Tavlı, CC BY-SA 4.0, Wikimedia Commons",
         detailBullets: [
             "Yaklaşık 1.000 - 1.500 yıllık",
             "1001 Kilise Şehri olarak bilinir. Orta Çağ’da önemli bir ticaret ve kültür merkezidir."
@@ -112,6 +136,8 @@ const INFO = {
     },
     "gbklt": {
         title: "Göbeklitepe - Şanlıurfa",
+        imageURL: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Gobeklitepe_Panorama.jpg/2560px-Gobeklitepe_Panorama.jpg",
+        imageAttr: "(c) Spica-Vega Photo Arts (Banu Nazikcan), CC BY-SA 4.0, Wikimedia Commons",
         detailBullets: [
             "11.000 - 12.000 yıllık",
             "Bilinen en eski tapınaktır. Din, yerleşik hayat ve medeniyet tarihiyle ilgili yeni bilgiler bulunmasını sağlamıştır. T şeklindeki sütunları ve kabartmalarıyla ünlüdür."
@@ -119,6 +145,8 @@ const INFO = {
     },
     "zgma": {
         title: "Zeugma - Gaziantep",
+        imageURL: "https://upload.wikimedia.org/wikipedia/commons/a/ad/Zeugma_dec_2008_7378.jpg",
+        imageAttr: "(c) Dosseman, CC BY-SA 4.0, Wikimedia Commons",
         detailBullets: [
             "Yaklaşık 2.000 yıllık",
             "Roma dönemine ait mozaikleriyle ünlüdür. Çingene Kızı Mozaiği, oradaki en bilinen eserlerden biridir."
@@ -133,6 +161,17 @@ Object.entries(POINTS).forEach(([pointID, pointCoords]) => {
 
     marker.on("click", () => {
         modalContainer.querySelector(".modal-item-title").innerText = info.title
+
+        const modalImage = modalContainer.querySelector(".modal-image")
+        modalImage.src = "" // reset first
+        const imageAttribution = modalContainer.querySelector(".modal-image-attribution")
+        imageAttribution.innerText = ""
+
+        if(info.imageURL) {
+            modalImage.src = info.imageURL
+            imageAttribution.innerText = info.imageAttr
+        }
+
         const bulletsContainer = modalContainer.querySelector(".points")
         bulletsContainer.innerHTML = ""
         info.detailBullets.forEach(bullet => {

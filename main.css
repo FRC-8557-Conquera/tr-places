@@ -82,3 +82,17 @@ body {
 .modal-container .points {
     margin-top: 0;
 }
+
+.modal-image {
+    max-width: 100%;
+    object-fit: cover;
+}
+
+.modal-image-attribution {
+    display: inline-block;
+    color: gray;
+}
+
+.modal-image-attribution:not(:empty) {
+    margin-bottom: 1rem;
+}
