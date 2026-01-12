@@ -154,7 +154,7 @@ const INFO = {
     }
 }
 
-const questions = await (await fetch("/questions.json")).json()
+const questions = await (await fetch("questions.json")).json()
 
 Object.entries(POINTS).forEach(([pointID, pointCoords]) => {
     const marker = L.marker(pointCoords).addTo(map)
