@@ -42,6 +42,7 @@ body {
     border-radius: .25rem;
     border: 1px solid gray;
     transition: 0.2s;
+    overflow: scroll;
 }
 
 .modal-container:not(.visible) .modal {
