@@ -1,0 +1,380 @@
+{
+  "anih": [
+    {
+      "text": "Ani Harabeleri hangi ilimizde yer alır?",
+      "choices": ["Erzurum", "Kars", "Ardahan", "Ağrı"],
+      "correct_answer_idx": 1
+    },
+    {
+      "text": "Ani, tarihte hangi lakapla anılmıştır?",
+      "choices": ["Bin Minareli Şehir", "Taşların Kenti", "1001 Kiliseli Şehir", "Altın Şehir"],
+      "correct_answer_idx": 2
+    },
+    {
+      "text": "Ani Harabeleri hangi ülke sınırına çok yakındır?",
+      "choices": ["Gürcistan", "İran", "Azerbaycan", "Ermenistan"],
+      "correct_answer_idx": 3
+    },
+    {
+      "text": "Ani, hangi medeniyetin başkenti olmuştur?",
+      "choices": ["Urartular", "Selçuklular", "Bagratlı Ermeniler", "Romalılar"],
+      "correct_answer_idx": 2
+    },
+    {
+      "text": "Ani Harabeleri UNESCO Dünya Mirası Listesi’ne hangi yılda girmiştir?",
+      "choices": ["2012", "2014", "2016", "2018"],
+      "correct_answer_idx": 2
+    }
+  ],
+  "nmrt": [
+    {
+      "text": "Nemrut Dağı hangi ilimizdedir?",
+      "choices": ["Malatya", "Adıyaman", "Şanlıurfa", "Elazığ"],
+      "correct_answer_idx": 1
+    },
+    {
+      "text": "Nemrut Dağı’ndaki dev heykelleri yaptıran kral kimdir?",
+      "choices": ["Büyük İskender", "II. Ramses", "Antiochos I", "Darius"],
+      "correct_answer_idx": 2
+    },
+    {
+      "text": "Nemrut Dağı hangi krallığa aittir?",
+      "choices": ["Hitit", "Roma", "Kommagene", "Pers"],
+      "correct_answer_idx": 2
+    },
+    {
+      "text": "Nemrut Dağı en çok hangi özelliğiyle ünlüdür?",
+      "choices": ["Yer altı şehirleri", "Gün doğumu ve gün batımı", "Mozaikleri", "Sütunları"],
+      "correct_answer_idx": 1
+    },
+    {
+      "text": "Nemrut Dağı UNESCO Dünya Mirası Listesi’ne hangi yılda girmiştir?",
+      "choices": ["1985", "1990", "2001", "2010"],
+      "correct_answer_idx": 0
+    }
+  ],
+  "gbklt": [
+    {
+      "text": "Göbeklitepe hangi ilimizde yer alır?",
+      "choices": ["Mardin", "Diyarbakır", "Şanlıurfa", "Gaziantep"],
+      "correct_answer_idx": 2
+    },
+    {
+      "text": "Göbeklitepe yaklaşık kaç yıllıktır?",
+      "choices": ["5.000", "7.000", "10.000", "12.000"],
+      "correct_answer_idx": 3
+    },
+    {
+      "text": "Göbeklitepe neden bu kadar önemlidir?",
+      "choices": ["İlk yazının bulunması", "İlk şehir planının yapılması", "Bilinen en eski tapınak olması", "İlk paranın basılması"],
+      "correct_answer_idx": 2
+    },
+    {
+      "text": "Göbeklitepe’de bulunan T şeklindeki dikilitaşlar neyi temsil eder?",
+      "choices": ["Hayvanları", "Tanrıları", "İnsan figürlerini", "Kralları"],
+      "correct_answer_idx": 2
+    },
+    {
+      "text": "Göbeklitepe UNESCO Dünya Mirası Listesi’ne hangi yılda girmiştir?",
+      "choices": ["2012", "2015", "2018", "2020"],
+      "correct_answer_idx": 2
+    }
+  ],
+  "zgma": [
+    {
+      "text": "Zeugma Antik Kenti hangi ilimizde yer alır?",
+      "choices": ["Şanlıurfa", "Gaziantep", "Adana", "Hatay"],
+      "correct_answer_idx": 1
+    },
+    {
+      "text": "Zeugma’nın adı hangi anlamı taşır?",
+      "choices": ["Kale", "Ticaret", "Köprü / Geçit", "Tapınak"],
+      "correct_answer_idx": 2
+    },
+    {
+      "text": "Zeugma hangi nehir kıyısında kurulmuştur?",
+      "choices": ["Dicle", "Kızılırmak", "Fırat", "Asi"],
+      "correct_answer_idx": 2
+    },
+    {
+      "text": "Zeugma en çok hangi eserleriyle ünlüdür?",
+      "choices": ["Heykeller", "Sütunlar", "Mozaikler", "Yazıtlar"],
+      "correct_answer_idx": 2
+    },
+    {
+      "text": "“Çingene Kızı” mozaiği hangi müzede sergilenmektedir?",
+      "choices": ["İstanbul Arkeoloji Müzesi", "Şanlıurfa Arkeoloji Müzesi", "Gaziantep Zeugma Mozaik Müzesi", "Ankara Anadolu Medeniyetleri Müzesi"],
+      "correct_answer_idx": 2
+    }
+  ],
+  "kkma": [
+    {
+      "text": "Kral Kaya Mezarları hangi ilimizde bulunur?",
+      "choices": ["Tokat", "Çorum", "Amasya", "Samsun"],
+      "correct_answer_idx": 2
+    },
+    {
+      "text": "Kral Kaya Mezarları hangi medeniyete aittir?",
+      "choices": ["Hititler", "Romalılar", "Pontus Krallığı", "Frigler"],
+      "correct_answer_idx": 2
+    },
+    {
+      "text": "Bu mezarlar hangi doğal yapının içine oyulmuştur?",
+      "choices": ["Toprak", "Mermer", "Kaya", "Tuğla"],
+      "correct_answer_idx": 2
+    },
+    {
+      "text": "Kral Kaya Mezarları nerede konumlanmıştır?",
+      "choices": ["Denizin kenarında", "Bir ovanın ortasında", "Dağın zirvesinde", "Yeşilırmak Vadisi’nde"],
+      "correct_answer_idx": 3
+    },
+    {
+      "text": "Mezarların yüksek kayalara yapılmasının temel amacı ne olabilir?",
+      "choices": ["Süs amaçlı", "Kolay ulaşım", "Güvenlik ve görkem", "Tarım"],
+      "correct_answer_idx": 2
+    }
+  ],
+  "htssa": [
+    {
+      "text": "Hattuşa Antik Kenti hangi ilimizde yer alır?",
+      "choices": ["Ankara", "Yozgat", "Çorum", "Sivas"],
+      "correct_answer_idx": 2
+    },
+    {
+      "text": "Hattuşa hangi medeniyetin başkentidir?",
+      "choices": ["Frigler", "Hititler", "Urartular", "Lidyalılar"],
+      "correct_answer_idx": 1
+    },
+    {
+      "text": "Hattuşa’daki ünlü anıtsal kapılardan biri hangisidir?",
+      "choices": ["Aslanlı Kapı", "Kral Kapısı", "Yer Kapı", "Hepsi"],
+      "correct_answer_idx": 3
+    },
+    {
+      "text": "Hattuşa’da bulunan ve tarihin bilinen ilk yazılı barış antlaşması hangi devletle yapılmıştır?",
+      "choices": ["Asur", "Babil", "Mısır", "Pers"],
+      "correct_answer_idx": 2
+    },
+    {
+      "text": "Hattuşa UNESCO Dünya Mirası Listesi’ne hangi yılda girmiştir?",
+      "choices": ["1986", "1990", "2001", "2015"],
+      "correct_answer_idx": 0
+    }
+  ],
+  "cthyk": [
+    {
+      "text": "Çatalhöyük hangi ilimizde yer alır?",
+      "choices": ["Konya", "Kayseri", "Aksaray", "Nevşehir"],
+      "correct_answer_idx": 0
+    },
+    {
+      "text": "Çatalhöyük hangi döneme aittir?",
+      "choices": ["Paleolitik", "Neolitik", "Tunç Çağı", "Demir Çağı"],
+      "correct_answer_idx": 1
+    },
+    {
+      "text": "Çatalhöyük’te evlere giriş nasıl sağlanıyordu?",
+      "choices": ["Kapıdan", "Pencereden", "Çatıdan", "Yer altından"],
+      "correct_answer_idx": 2
+    },
+    {
+      "text": "Çatalhöyük neden önemlidir?",
+      "choices": ["İlk yazının bulunması", "İlk paranın basılması", "İlk tarım denemeleri", "İlk yerleşik yaşam örneklerinden biri"],
+      "correct_answer_idx": 3
+    },
+    {
+      "text": "Çatalhöyük UNESCO Dünya Mirası Listesi’ne hangi yılda girmiştir?",
+      "choices": ["2008", "2010", "2012", "2014"],
+      "correct_answer_idx": 2
+    }
+  ],
+  "sfr": [
+    {
+      "text": "Safranbolu Kaya Mezarları hangi ilimizde yer alır?",
+      "choices": ["Kastamonu", "Bartın", "Karabük", "Zonguldak"],
+      "correct_answer_idx": 2
+    },
+    {
+      "text": "Safranbolu Kaya Mezarları hangi döneme aittir?",
+      "choices": ["Hitit", "Roma", "Frig", "Urartu"],
+      "correct_answer_idx": 1
+    },
+    {
+      "text": "Kaya mezarları hangi malzemenin oyulmasıyla yapılmıştır?",
+      "choices": ["Mermer", "Tuğla", "Kaya", "Ahşap"],
+      "correct_answer_idx": 2
+    },
+    {
+      "text": "Safranbolu Kaya Mezarları ne amaçla kullanılmıştır?",
+      "choices": ["Tapınak", "Depo", "Mezar", "Saray"],
+      "correct_answer_idx": 2
+    },
+    {
+      "text": "Kaya mezarlarının yüksek ve ulaşılması zor yerlere yapılmasının nedeni nedir?",
+      "choices": ["Manzara", "Güvenlik ve kutsallık", "Tarım", "Süsleme"],
+      "correct_answer_idx": 1
+    }
+  ],
+  "aspendos": [
+    {
+      "text": "Aspendos Antik Kenti hangi ilimizde yer alır?",
+      "choices": ["Antalya", "Burdur", "Isparta", "Mersin"],
+      "correct_answer_idx": 0
+    },
+    {
+      "text": "Aspendos en çok hangi yapısıyla ünlüdür?",
+      "choices": ["Stadyum", "Agora", "Tiyatro", "Tapınak"],
+      "correct_answer_idx": 2
+    },
+    {
+      "text": "Aspendos Tiyatrosu hangi dönemde inşa edilmiştir?",
+      "choices": ["Helenistik", "Roma", "Bizans", "Selçuklu"],
+      "correct_answer_idx": 1
+    },
+    {
+      "text": "Aspendos Tiyatrosu’nun en dikkat çekici özelliği nedir?",
+      "choices": ["Süslemeleri", "Büyüklüğü", "Akustiği", "Yüksekliği"],
+      "correct_answer_idx": 2
+    },
+    {
+      "text": "Aspendos Antik Kenti hangi nehir yakınında kurulmuştur?",
+      "choices": ["Asi", "Kızılırmak", "Köprüçay (Eurymedon)", "Manavgat"],
+      "correct_answer_idx": 2
+    }
+  ],
+  "perge": [
+    {
+      "text": "Perge Antik Kenti hangi ilimizde yer alır?",
+      "choices": ["Antalya", "İzmir", "Muğla", "Mersin"],
+      "correct_answer_idx": 0
+    },
+    {
+      "text": "Perge Antik Kenti hangi antik bölgeye aittir?",
+      "choices": ["Likya", "Pamfilya", "Karya", "Frigya"],
+      "correct_answer_idx": 1
+    },
+    {
+      "text": "Perge en çok hangi yapılarıyla bilinir?",
+      "choices": ["Kaya mezarları", "Su kanallı ana caddesi", "Yer altı şehirleri", "Kaleler"],
+      "correct_answer_idx": 1
+    },
+    {
+      "text": "Perge Antik Kenti hangi dönemde en parlak zamanını yaşamıştır?",
+      "choices": ["Pers", "Helenistik", "Roma", "Bizans"],
+      "correct_answer_idx": 2
+    },
+    {
+      "text": "Perge ile ilişkilendirilen ünlü matematikçi kimdir?",
+      "choices": ["Pisagor", "Arşimet", "Öklid", "Apollonios"],
+      "correct_answer_idx": 3
+    }
+  ],
+  "iznik": [
+    {
+      "text": "İznik Antik Kenti hangi ilimizde yer alır?",
+      "choices": ["Bursa", "Balıkesir", "Kocaeli", "Yalova"],
+      "correct_answer_idx": 0
+    },
+    {
+      "text": "Antik dönemde İznik’in bilinen adı nedir?",
+      "choices": ["Pergamon", "Priene", "Nikaia", "Ephesos"],
+      "correct_answer_idx": 2
+    },
+    {
+      "text": "İznik hangi önemli tarihî olayla tanınır?",
+      "choices": ["İlk olimpiyatlar", "İznik Konsilleri", "Troya Savaşı", "Magna Carta"],
+      "correct_answer_idx": 1
+    },
+    {
+      "text": "İznik surları hangi dönemde büyük ölçüde inşa edilmiştir?",
+      "choices": ["Roma", "Selçuklu", "Osmanlı", "Cumhuriyet"],
+      "correct_answer_idx": 0
+    },
+    {
+      "text": "İznik günümüzde ayrıca neyle ünlüdür?",
+      "choices": ["Halıları", "Çinileri", "Cam sanatı", "Mozaikleri"],
+      "correct_answer_idx": 1
+    }
+  ],
+  "efes": [
+    {
+      "text": "Efes Antik Kenti hangi ilimizde yer alır?",
+      "choices": ["İzmir", "Aydın", "Muğla", "Manisa"],
+      "correct_answer_idx": 0
+    },
+    {
+      "text": "Efes hangi antik bölgeye aittir?",
+      "choices": ["Karya", "Likya", "İyonya", "Frigya"],
+      "correct_answer_idx": 2
+    },
+    {
+      "text": "Efes’te bulunan ve Dünyanın Yedi Harikası’ndan biri olan yapı hangisidir?",
+      "choices": ["Zeus Tapınağı", "Artemis Tapınağı", "Athena Tapınağı", "Apollon Tapınağı"],
+      "correct_answer_idx": 1
+    },
+    {
+      "text": "Efes Antik Kenti’nde yer alan ünlü kütüphane hangisidir?",
+      "choices": ["İskenderiye Kütüphanesi", "Bergama Kütüphanesi", "Celsus Kütüphanesi", "Hadrian Kütüphanesi"],
+      "correct_answer_idx": 2
+    },
+    {
+      "text": "Efes hangi özelliğiyle öne çıkar?",
+      "choices": ["Kaya mezarları", "Liman kenti olması", "Yer altı şehirleri", "Volkanik yapısı"],
+      "correct_answer_idx": 1
+    }
+  ],
+  "bergama": [
+    {
+      "text": "Bergama Antik Kenti hangi ilimizde yer alır?",
+      "choices": ["İzmir", "Manisa", "Balıkesir", "Aydın"],
+      "correct_answer_idx": 0
+    },
+    {
+      "text": "Antik dönemde Bergama’nın bilinen adı nedir?",
+      "choices": ["Smyrna", "Pergamon", "Miletos", "Nikaia"],
+      "correct_answer_idx": 1
+    },
+    {
+      "text": "Bergama hangi özelliğiyle ünlüdür?",
+      "choices": ["Yer altı şehirleri", "Tıp okulu (Asklepion)", "Kaya mezarları", "Limanı"],
+      "correct_answer_idx": 1
+    },
+    {
+      "text": "Bergama Kütüphanesi hangi alanda tarihe geçmiştir?",
+      "choices": ["En büyük kütüphane olması", "İlk kütüphane olması", "Parşömenin geliştirilmesi", "İlk üniversite olması"],
+      "correct_answer_idx": 2
+    },
+    {
+      "text": "Bergama’da bulunan ve çok dik olmasıyla bilinen yapı hangisidir?",
+      "choices": ["Agora", "Tiyatro", "Stadyum", "Tapınak"],
+      "correct_answer_idx": 1
+    }
+  ],
+  "troy": [
+    {
+      "text": "Troya Antik Kenti hangi ilimizde yer alır?",
+      "choices": ["Balıkesir", "İzmir", "Çanakkale", "Edirne"],
+      "correct_answer_idx": 2
+    },
+    {
+      "text": "Troya Savaşı hangi destanda anlatılır?",
+      "choices": ["Odysseia", "İlyada", "Aeneis", "Gilgameş"],
+      "correct_answer_idx": 1
+    },
+    {
+      "text": "Troya Antik Kenti kaç katmanlı (yerleşim evreli) bir yapıya sahiptir?",
+      "choices": ["3", "5", "7", "9"],
+      "correct_answer_idx": 3
+    },
+    {
+      "text": "Troya denince akla gelen en ünlü sembol hangisidir?",
+      "choices": ["Aslanlı Kapı", "Truva Atı", "Zeus Tapınağı", "Altın Maske"],
+      "correct_answer_idx": 1
+    },
+    {
+      "text": "Troya Antik Kenti UNESCO Dünya Mirası Listesi’ne hangi yılda girmiştir?",
+      "choices": ["1996", "1998", "2000", "2003"],
+      "correct_answer_idx": 1
+    }
+  ]
+}

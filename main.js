@@ -154,6 +154,8 @@ const INFO = {
     }
 }
 
+const questions = await (await fetch("/questions.json")).json()
+
 Object.entries(POINTS).forEach(([pointID, pointCoords]) => {
     const marker = L.marker(pointCoords).addTo(map)
 
@@ -179,6 +181,27 @@ Object.entries(POINTS).forEach(([pointID, pointCoords]) => {
             li.innerText = bullet
             bulletsContainer.appendChild(li)
         })
+
+        const qfb = document.querySelector("#question-feedback")
+        qfb.innerText = ""
+
+        const choiceElems = ["#choiceA", "#choiceB", "#choiceC", "#choiceD"].map(x=>document.querySelector(x))
+        choiceElems.forEach(x=>x.checked = false)
+
+        const randomQuestion = questions[pointID][Math.floor(Math.random() * questions[pointID].length)]
+        document.querySelector("#question-text").innerText = randomQuestion.text
+        document.querySelector("#choiceALabel").innerText = randomQuestion.choices[0]
+        document.querySelector("#choiceBLabel").innerText = randomQuestion.choices[1]
+        document.querySelector("#choiceCLabel").innerText = randomQuestion.choices[2]
+        document.querySelector("#choiceDLabel").innerText = randomQuestion.choices[3]
+        const sb = document.querySelector("#sendButton")
+        sb.onclick = e => {
+            e.preventDefault()
+            const selected = choiceElems.findIndex(x=>x.checked)
+            if(selected == -1) return
+
+            qfb.innerText = selected == randomQuestion.correct_answer_idx ? "Doğru!" : "Yanlış!"
+        }
 
         modalContainer.classList.add("visible")
     })
