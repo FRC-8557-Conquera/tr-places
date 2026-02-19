@@ -39,7 +39,7 @@ body {
     background: white;
     padding: 1rem;
     padding-top: 0;
-    border-radius: .25rem;
+    border-radius: .5rem;
     border: 1px solid gray;
     transition: 0.2s;
     overflow: scroll;
@@ -85,7 +85,9 @@ body {
 }
 
 .modal-image {
-    max-width: 100%;
+    display: block;
+    max-width: 10rem;
+    max-height: 10rem;
     object-fit: cover;
 }
 
